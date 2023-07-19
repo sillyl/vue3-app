@@ -1,0 +1,144 @@
+$primary-color: #0A6EFA;
+$error-color: #f5222d;
+$popover-background: #303030;
+$default-hover-color: #0A6EFA;
+$grey-color: #a4a5b3;
+
+html,
+body {
+  font-size: 14px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #f0f2f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; //padding: 0px 0px 0px 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.color_primary {
+  color: $primary-color;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.default_link {
+  color: $primary-color;
+  cursor: pointer;
+
+  &.ant-typography {
+    color: $primary-color;
+  }
+}
+
+.default_link_icon {
+  color: #3E3E47;
+  cursor: pointer;
+
+  &.ant-typography {
+    color: $primary-color;
+  }
+
+  &:hover {
+    color: #3E3E47;
+  }
+}
+
+.color_error {
+  color: $error-color;
+}
+
+.default_module_title {
+  margin: 15px 20px 15px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: #292830;
+
+  i {
+    margin-left: 10px;
+    font-size: 12px;
+
+    &:hover {
+      color: $primary-color;
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-select-dropdown-menu {
+    max-height: 260px;
+}
+
+.default_table_actions {
+  i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+  }
+}
+
+.icon_default {
+  color: $grey-color;
+  &:hover{
+    color: $default-hover-color;
+    cursor: pointer;
+  }
+}
+
+.default-disabled{
+  color: $grey-color;
+  cursor: not-allowed;
+  &:hover{
+    color: $grey-color;
+    cursor: not-allowed;
+  }
+}
