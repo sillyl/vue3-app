@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
+import "@/views/three-demo2-3物体移动.js";
 
 const app = createApp(App);
 app.use(ElementPlus);
